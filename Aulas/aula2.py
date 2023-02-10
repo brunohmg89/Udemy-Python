@@ -1,2 +1,6 @@
-print(12, 34)
-print(56, 78)
+# sep = separador
+# end = final da linha
+# nome de comando não pode utilizar letra maiúscula
+print(12, 34, 1011, sep="-", end='\n##')
+print(56, 78, sep="-", end='\n')
+print(9, 10, sep="-", end='\n')
