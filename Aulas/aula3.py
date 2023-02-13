@@ -9,15 +9,15 @@ Strings são textos que estão dentro de aspas
 print(1234)
 
 # Aspas simples
-print('Luiz Otávio')
-print(1, 'Luiz "Otávio"')
+print('Bruno Henrique')
+print(1, 'Bruno "Henrique"')
 
 # Aspas duplas
-print("Luiz Otávio")
-print(2, "Luiz 'Otávio'")
+print("Bruno Henrique")
+print(2, "Bruno 'Henrique'")
 
 # Escape
-print("Luiz \"Otávio\"")
+print("Bruno \"Henrique\"")
 
 # r
-print(r"Luiz \"Otávio\"")
+print(r"Bruno \"Henrique\"")

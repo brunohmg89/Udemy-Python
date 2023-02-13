@@ -26,4 +26,6 @@
 
 - Escape \
 
+- Tipos : Str -> Int -> Float
+
 - 
