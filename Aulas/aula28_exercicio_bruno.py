@@ -16,7 +16,7 @@ Se nada for digitado em nome ou idade:
 
 nome = input('Digite seu nome: ')
 idade = input('Digite sua idade: ')
-espaco = nome 
+
 if nome and idade:
 
     print(f'Seu nome é {nome}')
