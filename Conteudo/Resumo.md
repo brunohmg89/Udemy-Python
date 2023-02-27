@@ -10,22 +10,5 @@
 
 ## Seção 3: Iniciando programação com Python    
 
-- Criando meu primeiro módulo Python
-
-- Comentários
-
-- """ utilização de 3 aspas é chamado DocStrings para criação de notas, mas não é comentário o interpretador do Python lê essas linhas
-
-- Função print 
-
-- \r\n -> CRLF (Windows) - \n -> LF (Unix)
-
-- Python tem tipagem Dinâmica/Forte
-
-- str -> string -> texto - Dentro de aspas simples ou duplas
-
-- Escape \
-
-- Tipos : Str -> Int -> Float
-
-- 
+- aula1.py (Comentários e DockString)
+- aula2.py ()
