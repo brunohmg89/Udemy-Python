@@ -38,4 +38,19 @@
     - **OR** - Qualquer condição verdadeira avalia toda a expressão como verdadeira. Se qualquer valor for considerado verdadeiro a expressão inteira será avaliada naquele valor.
 - aula23.py - Operadores lógicos **AND**, **OR** e **NOT**
     - **NOT** Utilizada para inverter expressões de *TRUE* para *FALSE* ou de *FALSE* para *TRUE*
-- aula24.py - 
+- aula24.py - Operador **in** e **not in**
+- aula25.py - Interpolação básica de Strings utilizando sinal de %.
+- aula26.py - Formatação básica de string utilizando os sinais **(> < ^ = - +)**
+- aula27.py - Fatiamento de strings utilizando **[i:f:p]** após a utilização da váriavel, visto também a função *len* que retorna a quantidade de carecteres de uma string.
+- aula28.py - Exercicios utilizando o fatiamento de strings
+- aula29.py - Introdução ao **TRY/EXCEPT**
+    - **Try** Tentar executar o código
+    - **Except** Tratamente de erros/exceções.
+- aula30.py - Exemplo de váriaveis "constantes" que não irão alterar.
+- aula31.py - Adicionando Flag (bandeira), nada mais é do que marcar um local no código. Váriavel None = Não valor. Operadores **is** e **is not** (é ou não é).
+- aula32.py - Exercicios
+    - Exercicio para informar se um número digitado é inteiro e se ele é par ou impar.
+    - Exercicio para saudar com *bom dia*, *boa tarde* ou *boa noite* dependendo da hora (número inteiro) que for digitado.
+    - Exercicio para tratar a quantidade de letras de um nome que for digitado e mostrar se ele é pequeno, normal ou grande.
+- aula33.py - Revendo tipos de váriaveis imutaveis que vimos (str, int, float, bool) e função *.zfill.
+- aula34.py - 
