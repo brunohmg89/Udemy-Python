@@ -54,3 +54,12 @@
     - Exercicio para tratar a quantidade de letras de um nome que for digitado e mostrar se ele é pequeno, normal ou grande.
 - aula33.py - Revendo tipos de váriaveis imutaveis que vimos (str, int, float, bool) e função *.zfill.
 - aula34.py - 
+
+- aula60.py - Aprendendo sobre **split** e **join**
+    - **split**: Divide uma string (retorna uma lista)
+    - **join**: Une uma string
+- aula61.py - Lista dentro de lista, acessando os dados com for.
+- aula62.py - Detalhes sobre o interpretador do Python.
+- aula63.py - Desempacotamento em chamadas de métodos e funções.
+- aula64.py - Operação ternária em Python (if e else de uma linha)
+- aula65.py - Exercicio - Calculo do primeiro digito do CPF (tentativa de resolução)
