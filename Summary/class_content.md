@@ -2,19 +2,22 @@
 
 ## Seção 1: Informações e avisos importantes + Boas vindas
 
-- Concluído
-
 ## Seção 2: Python + VS Code: Preparando o ambiente
 
-- Concluído - Configuração do VSCode e dicas
+- Configuração do VSCode e dicas
 
 ## Seção 3: Iniciando programação com Python    
 
-- aula1.py - Comentários ```#``` e DockString ```"""```)
+- aula1.py - Comentários ```#``` e DockString ```"""```
+
 - aula2.py - Separadores
+
 - aula3.py - Python uma linguagem de tipagem **FORTE** & **DINAMICA**
+
 - aula4.py - Tipos de váriavel - **FLOAT** - Ponto Flutuante = *1.2*
-- aula5.py - Tipos de váriavel - **BOOL** Booleano - *TRUE* ou *FALSE*))
+
+- aula5.py - Tipos de váriavel - **BOOL** Booleano - *TRUE* ou *FALSE*
+
 - aula6.py - Conversão de tipos de váriavel, coerção
 - aula7.py - Utilizando as váriaveis, mostrando "**nome**" (*string*) e se é maior de idade (*Booleano*)
 - aula8.py - Utilizando as váriaveis, mostrando todos os tipos de váriaveis (*string, inteiro, booleano e ponto flutuante*)
@@ -63,3 +66,7 @@
 - aula63.py - Desempacotamento em chamadas de métodos e funções.
 - aula64.py - Operação ternária em Python (if e else de uma linha)
 - aula65.py - Exercicio - Calculo do primeiro digito do CPF (tentativa de resolução)
+
+## Seção 4: Python intermediário - Funções, dicionários, módulos, Programação Funcional e +
+
+- aula66.py - 
