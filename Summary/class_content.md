@@ -140,4 +140,18 @@ Dicionários são estruturas de dados do tipo par de "chave" e "valor". Chaves p
     - Imutáveis: str, int, float, bool, tuple
     - Mutável: dict, list
 
-- aula77.py - 
+- aula77.py - Manipulando chaves e valores em dicionários
+
+- aula78.py - Métodos úteis dos dicionários em Python
+    - len - quantas chaves
+    - keys - iterável com as chaves
+    - values - iterável com os valores
+    - items - iterável com chaves e valores
+    - setdefault - adiciona valor se a chave não existe
+    - copy - retorna uma cópia rasa (shallow copy)
+    - get - obtém uma chave
+    - pop - Apaga um item com a chave especificada (del)
+    - popitem - Apaga o último item adicionado
+    - update - Atualiza um dicionário com outro
+
+- aula79.py - 
