@@ -103,55 +103,78 @@ ponto flutuante*)
 
 ## Seção 4: Python intermediário - Funções, dicionários, módulos, Programação Funcional e +
 
-- aula66.py - Introdução às funções (def) em Python. Funções são trechos de código usados para 
-replicar determinada ação ao longo do seu código. Elas podem receber valores para parâmetros (argumentos) 
-e retornar um valor específico. Por padrão, funções Python retornam None (nada).
+- aula66.py:
+    - Introdução às funções (def) em Python.
+        - Funções são trechos de código usados para replicar determinada ação ao longo do seu código.
+        - Elas podem receber valores para parâmetros (argumentos) e retornar um valor específico.
+        - Por padrão, funções Python retornam None (nada).
 
-- aula67.py - Argumentos nomeados e não nomeados em funções Python. Argumento nomeado tem nome com sinal de igual. Argumento não nomeado recebe apenas o argumento (valor).
+- aula67.py: 
+    - Argumentos nomeados e não nomeados em funções Python.
+        - Argumento nomeado tem nome com sinal de igual
+        - Argumento não nomeado recebe apenas o argumento (valor).
 
-- aula68.py - Valores padrão para parâmetros. Ao definir uma função, os parâmetros podem ter valores padrão. Caso o valor não seja enviado para o parâmetro, o valor padrão ser usado.
-    - Refatorar: editar o seu código.
+- aula68.py:
+    - Valores padrão para parâmetros.
+        - Ao definir uma função, os parâmetros podem ter valores padrão
+        - Caso o valor não seja enviado para o parâmetro, o valor padrão será usado.
+        - Refatorar - Editar o seu código.
 
-- aula69_p1.py - Escopo de funções em Python. Escopo significa o local onde aquele código pode atingir. Existe o escopo global e local.
-    - O escopo global é o escopo onde todo o código é alcançavel.
-    - O escopo local é o escopo onde apenas nomes do mesmo local podem ser alcançados.
+- aula69_p1.py:
+    - Escopo de funções em Python.
+        - Escopo significa o local onde aquele código pode atingir.
+        - Existe o escopo global e local.
+        - O escopo global é o escopo onde todo o código é alcançavel.
+        - O escopo local é o escopo onde apenas nomes do mesmo local podem ser alcançados.
 
-- aula69_p2.py - Não temos acesso a nomes de escopos internos nos escopos externos. A palavra global faz uma variável do escopo externo ser a mesma no escopo interno.
+- aula69_p2.py:
+    - Não temos acesso a nomes de escopos internos nos escopos externos.
+    - A palavra global faz uma variável do escopo externo ser a mesma no escopo interno.
 
-- aula70.py - Retorno de valores das funções (**return**)
+- aula70.py:
+    - Retorno de valores das funções **return**
 
-- aula71.py - args: Argumentos não nomeados -> *args (empacotamento e desempacotamento)
+- aula71.py:
+    - args - Argumentos não nomeados 
+    - *args - empacotamento e desempacotamento
 
-- aula72_exercise.py - Exercícios com funções
-    - Crie uma função que multiplica todos os argumentos não nomeados recebidos e retorne o total para uma variável e mostre o valor da variável.
+- aula72_exercise.py:
+    - Exercícios com funções:
+        - Crie uma função que multiplica todos os argumentos não nomeados recebidos e retorne o total para uma variável e mostre o valor da variável.
 
-- aula73.py - Higher Order Functions. Funções de primeira classe
+- aula73.py:
+    - Higher Order Functions
+    - Funções de primeira classe
 
-- aula74.py - Closure e funções que retornam outras funções
+- aula74.py:
+    - Closure e funções que retornam outras funções
 
-- aula75_exercise_s1.py - Exercícios (repetindo código)
+- aula75_exercise_s1.py:
+    - Exercícios (repetindo código)
     - Crie funções que duplicam, triplicam e quadruplicam o número recebido como parâmetro.
 
-- aula75_exersice_s2.py - Exercícios (criando um multiplicador com argumento)
+- aula75_exersice_s2.py:
+    - Exercícios (criando um multiplicador com argumento)
     - Crie funções que duplicam, triplicam e quadruplicam o número recebido como parâmetro.
 
-- aula76.py - Dicionários em Python (tipo dict)
-Dicionários são estruturas de dados do tipo par de "chave" e "valor". Chaves podem ser consideradas como o "índice" que vimos na lista e podem ser de tipos imutáveis como: str, int, float, bool, tuple, etc. O valor pode ser de qualquer tipo, incluindo outro dicionário. Usamos as chaves - {} - ou a classe dict para criar dicionários.
-    - Imutáveis: str, int, float, bool, tuple
-    - Mutável: dict, list
+- aula76.py:
+    - Dicionários em Python (tipo dict)
+        - Dicionários são estruturas de dados do tipo par de "chave" e "valor". Chaves podem ser consideradas como o "índice" que vimos na lista e podem ser de tipos imutáveis como: str, int, float, bool, tuple, etc. O valor pode ser de qualquer tipo, incluindo outro dicionário. Usamos as chaves - {} - ou a classe dict para criar dicionários.
+        - Imutáveis: str, int, float, bool, tuple
+        - Mutável: dict, list
 
-- aula77.py - Manipulando chaves e valores em dicionários
+- aula77.py:
+    - Manipulando chaves e valores em dicionários
 
-- aula78.py - Métodos úteis dos dicionários em Python
-    - len - quantas chaves
-    - keys - iterável com as chaves
-    - values - iterável com os valores
-    - items - iterável com chaves e valores
-    - setdefault - adiciona valor se a chave não existe
-    - copy - retorna uma cópia rasa (shallow copy)
-    - get - obtém uma chave
-    - pop - Apaga um item com a chave especificada (del)
-    - popitem - Apaga o último item adicionado
-    - update - Atualiza um dicionário com outro
-
-- aula79.py - 
+- aula78.py e aula79.py:
+    - Métodos úteis dos dicionários em Python:
+        - len - quantas chaves
+        - keys - iterável com as chaves
+        - values - iterável com os valores
+        - items - iterável com chaves e valores
+        - setdefault - adiciona valor se a chave não existe
+        - copy - retorna uma cópia rasa (shallow copy)
+        - get - obtém uma chave
+        - pop - Apaga um item com a chave especificada (del)
+        - popitem - Apaga o último item adicionado
+        - update - Atualiza um dicionário com outro
