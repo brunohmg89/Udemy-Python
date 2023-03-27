@@ -87,19 +87,175 @@ ponto flutuante*)
 
 - aula34.py - 
 
-- aula60.py - Aprendendo sobre **split** e **join**
-    - **split**: Divide uma string (retorna uma lista)
-    - **join**: Une uma string
+- aula39_exercise_s1 - aula39_exercise_s2:
+    - Exercicio: Iterando strings com while
 
-- aula61.py - Lista dentro de lista, acessando os dados com for.
+- aula40_exercise.py:
+    - Exercicio: Calculadora com while
 
-- aula62.py - Detalhes sobre o interpretador do Python.
+- aula41.py:
+    - while / else
 
-- aula63.py - Desempacotamento em chamadas de métodos e funções.
+- aula42_p1 - aula42_p2 - aula43_p1 - aula43_p2:
+    - While simples
+    - Iteração
 
-- aula64.py - Operação ternária em Python (if e else de uma linha)
+- aula44.py:
+    - For + Range
+    - range -> range(start, stop, step)
 
-- aula65.py - Exercicio - Calculo do primeiro digito do CPF (tentativa de resolução)
+- aula45.py - aula46.py:
+    - Iterável -> str, range, etc (__iter__)
+    - Iterador -> quem sabe entregar um valor por vez
+    - next -> me entregue o próximo valor
+    - iter -> me entregue seu iterador
+
+
+- aula47_exercise_s1 - aula47_exercise_s2 - aula47_exercise_s3:
+    - Exercicio: 
+        - Faça um jogo para o usuário adivinhar qual a palavra secreta.
+        - Você vai propor uma palavra secreta qualquer e vai dar a possibilidade para o usuário digitar apenas uma letra.
+        - Quando o usuário digitar uma letra, você vai conferir se a letra digitada está na palavra secreta.
+        - Se a letra digitada estiver na palavra secreta, exiba a letra,
+        - Se a letra digitada não estiver na palavra secreta, exiba *.
+        - Faça a contagem de tentativas do seu usuário.
+
+- aula48.py - aula49.py - aula50.py - aula51.py:
+    - Listas em Python
+        - Tipo list - Mutável
+        - Suporta vários valores de qualquer tipo
+        - Conhecimentos reutilizáveis - índices e fatiamento
+        - Métodos úteis:
+            - append - Adiciona um item ao final
+            - insert - Adiciona um item no índice escolhido
+            - pop - Remove do final ou do índice escolhido
+            - del - apaga um índice
+            - clear - limpa a lista
+            - extend - estende a lista
+            - (+) - concatena listas
+            - CRUD = Create Read Update Delete
+            
+            ```
+                C      R    U        D        (CRUD)
+                Create Read Update   Delete
+                Criar  ler  alterar  apagar = lista[i]
+            ```
+
+- aula52.py:
+    - Cuidados com dados mutáveis
+    - = copiado o valor (imutáveis)
+    - = aponta para o mesmo valor na memória (mutável)
+
+- aula53.py:
+    - for in com listas
+
+- aula54.py:
+    - Exercício
+        - Exiba os índices da lista
+        - 0 Maria
+        - 1 Helena
+        - 2 Luiz
+
+- aula55.py:
+    - Introdução ao empacotamento e desempacotamento
+
+- aula56.py:
+    - Tipo tupla - Uma lista imutável
+
+- aula57.py:
+    - enumerate - enumera iteráveis (índices)
+
+- aula58_exercise_s1 - aula58_exercise_s2:
+    - Faça uma lista de comprar com listas
+        - O usuário deve ter a possibilidade de inserir, apagar e listar valores da sua lista
+        - Não permita que o programa quebre com erros de índices inexistentes na lista.
+
+- aula59.py:
+    - Imprecisão de ponto flutuante
+    - Double-precision floating-point format IEEE 754 <https://en.wikipedia.org/wiki/Double-precision_floating-point_format> 
+    - <https://docs.python.org/pt-br/3/tutorial/floatingpoint.html>
+
+- aula60.py:
+    - split e join com list e str
+        - **split**: Divide uma string (retorna uma lista)
+        - **join**: Une uma string
+
+- aula61.py:
+    - Lista dentro de lista, acessando os dados com for.
+
+- aula62.py:
+    - Detalhes sobre o interpretador do Python.
+
+- aula63.py:
+    - Desempacotamento em chamadas de métodos e funções.
+
+- aula64.py:
+    - Operação ternária em Python
+        - if e else de uma linha
+        - (valor) if (condicao) else (outro valor)
+
+- aula65_exercise_s1.py - aula65_exercise_s2 - aula65_exercise_s3 - aula65_exercise_s4:
+    - Exercicio - Calculo do primeiro digito do CPF
+        - CPF:
+        ```
+            746.824.890-70
+        ```
+        - Colete a soma dos 9 primeiros dígitos do CPF multiplicando cada um dos valores por uma contagem regressiva começando de 10:
+        ```
+            10   9  8  7  6  5  4  3  2
+         *   7   4  6  8  2  4  8  9  0
+            70  36 48 56 12 20 32 27  0
+        ```
+        - Somar todos os resultados: 
+        ``` 
+            70 + 36 + 48 + 56 + 12 + 20 + 32 + 27 + 0 = 301
+        ```
+        - Multiplicar o resultado anterior por 10:
+        ```
+            301 * 10 = 3010
+        ```
+        - Obter o resto da divisão da conta anterior por 11:
+        ```
+            3010 % 11 = 7
+        ```
+        - Se o resultado anterior for maior que 9:
+            - resultado é 0
+        contrário disso:
+            - resultado é o valor da conta
+        - O primeiro dígito do CPF é 7
+
+    - Exercicio - Calculo do primeiro segundo digito do CPF:
+        - CPF:
+        ```
+            746.824.890-70
+        ```
+        - Colete a soma dos 9 primeiros dígitos do CPF, Mais o primeiro digito, multiplicando cada um dos valores por uma contagem regressiva começando de 11:
+        ```
+            11  10  9  8  7  6  5  4  3  2
+         *   7   4  6  8  2  4  8  9  0  7
+            77  40 54 64 14 24 40 36  0 14
+        ```
+        - Somar todos os resultados: 
+        ``` 
+            77 + 40 + 54 + 64 + 14 + 24 + 40 + 36 + 0 + 14 = 363
+        ```
+        - Multiplicar o resultado anterior por 10:
+        ```
+            363 * 10 = 3630
+        ```
+        - Obter o resto da divisão da conta anterior por 11:
+        ```
+            3630 % 11 = 0
+        ```
+        - Se o resultado anterior for maior que 9:
+            - resultado é 0
+        contrário disso:
+            - resultado é o valor da conta
+        - O segundo dígito do CPF é 0
+
+- aula65_exercise_s5
+    - Exercio - Gerando CPFs aleatórios verdadeiros com base no calculo e de CPF feito no exercicio anterior.
+
 
 ## Seção 4: Python intermediário - Funções, dicionários, módulos, Programação Funcional e +
 
