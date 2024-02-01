@@ -1,3 +1,9 @@
-# Curso-Python
+# Udemy - Python
 
-Conteúdo do curso adquirido na Udemy sobre Python
+## Descrição
+
+Curso Udemy sobre Python.
+
+# Status do curso
+
+Em andamento
